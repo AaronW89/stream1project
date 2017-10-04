@@ -5,8 +5,8 @@ $(document).ready(function() {
         $('.dropdown-content').toggle();
     });
     $('#dropbtn1').mouseenter(function(){
-        console.log("sound")
+        console.log("sound");
         $('#dropbtn2').css('color', '#fff');
     });
-    
-})
+    $("#scrollbar2").tinyscrollbar({ axis: "x"});
+});

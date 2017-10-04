@@ -2,17 +2,19 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/stylesheet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 </head>
 <body>
-    <fieldset>
+    
     <div class="form-container">
         <label class="field">Name:</label>
         <input id="name" type="text" name="name" /><br />
         <label class="field">Email:</label>
         <input id="email" type="email" name=""/><br />
         <label class="field">Message:</label>
-        <input type="text" name="comment" />
+        <textarea type="text" name="comment" class="msgInput" ></textarea><br />
+        <input class="btn btn-success btn-sm btnsubmit" value="submit"/>
     </div>
-    </fieldset>
+
 </body>
 </html>
