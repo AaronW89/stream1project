@@ -13,7 +13,10 @@
             <div class="col-md-2 col-sm-12 col-xs-12" id="list">
                 <h3>Ann Marie Webb</h3>
                 <img class="img" src="images/feature.jpg" />
-                <ul>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myCollapsingList" aria-expanded="true">
+    	            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <ul id="myCollapsingList" class="nav navbar-nav navbar-collapse collapse in" aria-expanded="true" style="">
                     <li><a href="/index.html">Home</a></li>
                     <li class="dropdown"><div class="dropbtn" id="dropbtn2">Projects</div>
                         <div class="dropdown-content">
@@ -39,13 +42,12 @@
                     </li>
                     <li><a href="/works.html">Works</a></li>
                 </ul>
-                <!--<p>Email: webbannmarie@gmail.com</p>-->
             </div>
             <div class="col-md-10 col-sm-12 imgContent" id="scrollbar2">
                 <div>
-                    <ul  id="inlBlock">
-                        <li class="inlBlock"><img src="images/painting1.jpg" class="imgContent" /></li>
-                        <li class="inlBlock"><img src="images/painting2.jpg" class="imgContent" /></li>
+                    <ul  class="inlBlock">
+                        <li><img src="images/painting1.jpg" /></li>
+                        <li><img src="images/painting2.jpg" /></li>
                     </ul>
                 </div>
             </div>
